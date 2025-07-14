@@ -1,7 +1,7 @@
 const Listing = require("../models/listing");
 const mbxGeocoding = require("@mapbox/mapbox-sdk/services/geocoding");
 require('dotenv').config(); 
-const mapToken = process.env.MAPBOX_TOKEN;
+const mapToken = process.env.MAP_TOKEN;
 const geoCodingClient = mbxGeocoding({ accessToken: mapToken });
 
 module.exports.index = async (req, res) => {
@@ -22,6 +22,8 @@ module.exports.showListing = async (req, res) => {
     req.flash("error", "Listing you requested for does not exist!");
     res.redirect("/listings");
   }
+  console.log("listing = ", listing);
+
   res.render("listings/show.ejs", { listing });
 };
 

@@ -1,8 +1,9 @@
+const mongoose = require("mongoose");
 const sampleListings = [
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f66168",
-    },
+    _id: 
+       new mongoose.Types.ObjectId("66567c2f75f84fe592f66168"),
+    
     title: "Cozy Beachfront Cottage",
     description:
       "Escape to this charming beachfront cottage for a relaxing getaway. Enjoy stunning ocean views and easy access to the beach.",
@@ -14,22 +15,22 @@ const sampleListings = [
     location: "Malibu",
     country: "United States",
     reviews: [
-      {
-        $oid: "665765653ce388d9bf5919c2",
-      },
-      {
-        $oid: "665765843ce388d9bf5919d2",
-      },
-      {
-        $oid: "665765a23ce388d9bf5919e6",
-      },
-      {
-        $oid: "66577e4b3ce388d9bf591f6a",
-      },
+      
+        new mongoose.Types.ObjectId( "665765653ce388d9bf5919c2"),
+      
+      
+        new mongoose.Types.ObjectId( "665765843ce388d9bf5919d2"),
+  
+      
+         new mongoose.Types.ObjectId("665765a23ce388d9bf5919e6"),
+      
+      
+       new mongoose.Types.ObjectId( "66577e4b3ce388d9bf591f6a"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+       new mongoose.Types.ObjectId("66567b03fda820235197b582"),
+    
     geometry: {
       type: "Point",
       coordinates: [-118.68517, 34.034378],
@@ -38,9 +39,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f66169",
-    },
+    _id: 
+      new mongoose.Types.ObjectId("66567c2f75f84fe592f66169"),
+    
     title: "Modern Loft in Downtown",
     description:
       "Stay in the heart of the city in this stylish loft apartment. Perfect for urban explorers!",
@@ -52,22 +53,19 @@ const sampleListings = [
     location: "New York City",
     country: "United States",
     reviews: [
-      {
-        $oid: "665766303ce388d9bf5919f7",
-      },
-      {
-        $oid: "665766473ce388d9bf591a07",
-      },
-      {
-        $oid: "665766623ce388d9bf591a18",
-      },
-      {
-        $oid: "66577e5a3ce388d9bf591f7b",
-      },
+      
+         new mongoose.Types.ObjectId("665766303ce388d9bf5919f7"),
+      
+     new mongoose.Types.ObjectId("665766473ce388d9bf591a07"),
+      
+        new mongoose.Types.ObjectId( "665766623ce388d9bf591a18"),
+      
+        new mongoose.Types.ObjectId( "66577e5a3ce388d9bf591f7b"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+    
     geometry: {
       type: "Point",
       coordinates: [-74.0059945, 40.7127492],
@@ -76,9 +74,9 @@ const sampleListings = [
     __v: 5,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f6616a",
-    },
+    _id: 
+       new mongoose.Types.ObjectId("66567c2f75f84fe592f6616a"),
+    
     title: "Mountain Retreat",
     description:
       "Unplug and unwind in this peaceful mountain cabin. Surrounded by nature, it's a perfect place to recharge.",
@@ -90,22 +88,22 @@ const sampleListings = [
     location: "Aspen",
     country: "United States",
     reviews: [
-      {
-        $oid: "665766783ce388d9bf591a27",
-      },
-      {
-        $oid: "6657668e3ce388d9bf591a39",
-      },
-      {
-        $oid: "665766bd3ce388d9bf591a5d",
-      },
-      {
-        $oid: "66577e633ce388d9bf591f8c",
-      },
+      
+        new mongoose.Types.ObjectId( "665766783ce388d9bf591a27"),
+      
+      
+       new mongoose.Types.ObjectId(  "6657668e3ce388d9bf591a39"),
+      
+      
+       new mongoose.Types.ObjectId(  "665766bd3ce388d9bf591a5d"),
+      
+    
+       new mongoose.Types.ObjectId(  "66577e633ce388d9bf591f8c"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+     new mongoose.Types.ObjectId(  "66567b03fda820235197b582"),
+    
     geometry: {
       type: "Point",
       coordinates: [-106.819885, 39.18869],
@@ -114,9 +112,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f6616b",
-    },
+    _id: 
+     new mongoose.Types.ObjectId(  "66567c2f75f84fe592f6616b"),
+    
     title: "Historic Villa in Tuscany",
     description:
       "Experience the charm of Tuscany in this beautifully restored villa. Explore the rolling hills and vineyards.",
@@ -128,22 +126,20 @@ const sampleListings = [
     location: "Florence",
     country: "Italy",
     reviews: [
-      {
-        $oid: "665766d73ce388d9bf591a6c",
-      },
-      {
-        $oid: "665766ef3ce388d9bf591a83",
-      },
-      {
-        $oid: "6657670f3ce388d9bf591a94",
-      },
-      {
-        $oid: "66577e723ce388d9bf591f9d",
-      },
+      
+       new mongoose.Types.ObjectId(  "665766d73ce388d9bf591a6c"),
+    
+      
+       new mongoose.Types.ObjectId(  "665766ef3ce388d9bf591a83"),
+    
+       new mongoose.Types.ObjectId(  "6657670f3ce388d9bf591a94"),
+    
+       new mongoose.Types.ObjectId(  "66577e723ce388d9bf591f9d"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+     new mongoose.Types.ObjectId(  "66567b03fda820235197b582"),
+    
     geometry: {
       type: "Point",
       coordinates: [11.256129, 43.771485],
@@ -152,9 +148,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f6616c",
-    },
+    _id: 
+      new mongoose.Types.ObjectId( "66567c2f75f84fe592f6616c"),
+    
     title: "Secluded Treehouse Getaway",
     description:
       "Live among the treetops in this unique treehouse retreat. A true nature lover's paradise.",
@@ -166,22 +162,21 @@ const sampleListings = [
     location: "Portland",
     country: "United States",
     reviews: [
-      {
-        $oid: "6657672c3ce388d9bf591aa3",
-      },
-      {
-        $oid: "665767473ce388d9bf591aba",
-      },
-      {
-        $oid: "665767643ce388d9bf591ad0",
-      },
-      {
-        $oid: "66577e803ce388d9bf591fae",
-      },
+      
+       new mongoose.Types.ObjectId(  "6657672c3ce388d9bf591aa3"),
+      
+      
+       new mongoose.Types.ObjectId(  "665767473ce388d9bf591aba"),
+      
+      
+       new mongoose.Types.ObjectId(  "665767643ce388d9bf591ad0"),
+      
+       new mongoose.Types.ObjectId(  "66577e803ce388d9bf591fae"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+    
     geometry: {
       type: "Point",
       coordinates: [-122.6789, 45.52068],
@@ -190,9 +185,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f6616d",
-    },
+    _id: 
+     new mongoose.Types.ObjectId(  "66567c2f75f84fe592f6616d"),
+    
     title: "Beachfront Paradise",
     description:
       "Step out of your door onto the sandy beach. This beachfront condo offers the ultimate relaxation.",
@@ -204,22 +199,22 @@ const sampleListings = [
     location: "Cancun",
     country: "Mexico",
     reviews: [
-      {
-        $oid: "6657677b3ce388d9bf591adf",
-      },
-      {
-        $oid: "6657678f3ce388d9bf591af1",
-      },
-      {
-        $oid: "665767ae3ce388d9bf591b02",
-      },
-      {
-        $oid: "66577e933ce388d9bf591fbf",
-      },
+      
+        new mongoose.Types.ObjectId( "6657677b3ce388d9bf591adf"),
+      
+      
+       new mongoose.Types.ObjectId(  "6657678f3ce388d9bf591af1"),
+      
+      
+       new mongoose.Types.ObjectId(  "665767ae3ce388d9bf591b02"),
+      
+      
+       new mongoose.Types.ObjectId(  "66577e933ce388d9bf591fbf"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+    
     geometry: {
       type: "Point",
       coordinates: [-86.85176, 21.16188],
@@ -228,9 +223,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f6616e",
-    },
+    _id: 
+      new mongoose.Types.ObjectId( "66567c2f75f84fe592f6616e"),
+    
     title: "Rustic Cabin by the Lake",
     description:
       "Spend your days fishing and kayaking on the serene lake. This cozy cabin is perfect for outdoor enthusiasts.",
@@ -242,22 +237,22 @@ const sampleListings = [
     location: "Lake Tahoe",
     country: "United States",
     reviews: [
-      {
-        $oid: "665774653ce388d9bf591b20",
-      },
-      {
-        $oid: "665774793ce388d9bf591b2b",
-      },
-      {
-        $oid: "6657748b3ce388d9bf591b35",
-      },
-      {
-        $oid: "66577ea73ce388d9bf591fd3",
-      },
+      
+      new mongoose.Types.ObjectId(   "665774653ce388d9bf591b20"),
+      
+      
+      new mongoose.Types.ObjectId( "665774793ce388d9bf591b2b"),
+      
+      
+    new mongoose.Types.ObjectId(  "6657748b3ce388d9bf591b35"),
+      
+      
+    new mongoose.Types.ObjectId(     "66577ea73ce388d9bf591fd3"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+    new mongoose.Types.ObjectId(   "66567b03fda820235197b582"),
+    
     geometry: {
       coordinates: [-120.12787, 39.267319],
       type: "Point",
@@ -266,9 +261,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f6616f",
-    },
+    _id: 
+     new mongoose.Types.ObjectId(  "66567c2f75f84fe592f6616f"),
+    
     title: "Luxury Penthouse with City Views",
     description:
       "Indulge in luxury living with panoramic city views from this stunning penthouse apartment.",
@@ -280,22 +275,22 @@ const sampleListings = [
     location: "Los Angeles",
     country: "United States",
     reviews: [
-      {
-        $oid: "665774b43ce388d9bf591b4e",
-      },
-      {
-        $oid: "665774c23ce388d9bf591b59",
-      },
-      {
-        $oid: "665774d73ce388d9bf591b63",
-      },
-      {
-        $oid: "66577ebd3ce388d9bf591fe2",
-      },
+      
+      new mongoose.Types.ObjectId(   "665774b43ce388d9bf591b4e"),
+      
+      
+     new mongoose.Types.ObjectId(  "665774c23ce388d9bf591b59"),
+      
+      
+     new mongoose.Types.ObjectId(   "665774d73ce388d9bf591b63"),
+      
+      
+     new mongoose.Types.ObjectId(    "66577ebd3ce388d9bf591fe2"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+    new mongoose.Types.ObjectId(   "66567b03fda820235197b582"),
+    
     geometry: {
       type: "Point",
       coordinates: [-118.24168, 34.054077],
@@ -304,9 +299,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f66170",
-    },
+    _id: 
+      new mongoose.Types.ObjectId( "66567c2f75f84fe592f66170"),
+    
     title: "Ski-In/Ski-Out Chalet",
     description:
       "Hit the slopes right from your doorstep in this ski-in/ski-out chalet in the Swiss Alps.",
@@ -318,22 +313,22 @@ const sampleListings = [
     location: "Verbier",
     country: "Switzerland",
     reviews: [
-      {
-        $oid: "665774ec3ce388d9bf591b72",
-      },
-      {
-        $oid: "665774fe3ce388d9bf591b8b",
-      },
-      {
-        $oid: "6657750e3ce388d9bf591b95",
-      },
-      {
-        $oid: "66577ecc3ce388d9bf591ff1",
-      },
+      
+      new mongoose.Types.ObjectId(   "665774ec3ce388d9bf591b72"),
+      
+      
+      new mongoose.Types.ObjectId(   "665774fe3ce388d9bf591b8b"),
+      
+      
+      new mongoose.Types.ObjectId(   "6657750e3ce388d9bf591b95"),
+      
+      
+      new mongoose.Types.ObjectId(   "66577ecc3ce388d9bf591ff1"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+     new mongoose.Types.ObjectId(  "66567b03fda820235197b582"),
+    
     geometry: {
       type: "Point",
       coordinates: [7.229043, 46.096067],
@@ -342,9 +337,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f66171",
-    },
+    _id: 
+     new mongoose.Types.ObjectId(  "66567c2f75f84fe592f66171"),
+    
     title: "Safari Lodge in the Serengeti",
     description:
       "Experience the thrill of the wild in a comfortable safari lodge. Witness the Great Migration up close.",
@@ -356,22 +351,22 @@ const sampleListings = [
     location: "Serengeti National Park",
     country: "Tanzania",
     reviews: [
-      {
-        $oid: "6657752a3ce388d9bf591bae",
-      },
-      {
-        $oid: "665775343ce388d9bf591bb9",
-      },
-      {
-        $oid: "665775423ce388d9bf591bc3",
-      },
-      {
-        $oid: "66577ed93ce388d9bf592000",
-      },
+      
+      new mongoose.Types.ObjectId(   "6657752a3ce388d9bf591bae"),
+      
+      
+      new mongoose.Types.ObjectId(   "665775343ce388d9bf591bb9"),
+      
+      
+      new mongoose.Types.ObjectId(   "665775423ce388d9bf591bc3"),
+      
+      
+      new mongoose.Types.ObjectId(   "66577ed93ce388d9bf592000"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+    
     geometry: {
       coordinates: [30.536625, 38.820522],
       type: "Point",
@@ -380,9 +375,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f66172",
-    },
+    
+   _id:   new mongoose.Types.ObjectId( "66567c2f75f84fe592f66172"),
+    
     title: "Historic Canal House",
     description:
       "Stay in a piece of history in this beautifully preserved canal house in Amsterdam's iconic district.",
@@ -394,22 +389,22 @@ const sampleListings = [
     location: "Amsterdam",
     country: "Netherlands",
     reviews: [
-      {
-        $oid: "665775623ce388d9bf591bdc",
-      },
-      {
-        $oid: "665775703ce388d9bf591be7",
-      },
-      {
-        $oid: "665775803ce388d9bf591bf1",
-      },
-      {
-        $oid: "66577ee73ce388d9bf59200f",
-      },
+      
+       new mongoose.Types.ObjectId(  "665775623ce388d9bf591bdc"),
+      
+      
+       new mongoose.Types.ObjectId(  "665775703ce388d9bf591be7"),
+      
+      
+       new mongoose.Types.ObjectId(  "665775803ce388d9bf591bf1"),
+      
+      
+       new mongoose.Types.ObjectId(  "66577ee73ce388d9bf59200f"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+    
     geometry: {
       type: "Point",
       coordinates: [4.9, 52.378],
@@ -418,9 +413,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f66173",
-    },
+    _id:
+     new mongoose.Types.ObjectId(  "66567c2f75f84fe592f66173"),
+    
     title: "Private Island Retreat",
     description:
       "Have an entire island to yourself for a truly exclusive and unforgettable vacation experience.",
@@ -432,22 +427,22 @@ const sampleListings = [
     location: "Fiji",
     country: "Fiji",
     reviews: [
-      {
-        $oid: "665775b03ce388d9bf591c0d",
-      },
-      {
-        $oid: "665775be3ce388d9bf591c18",
-      },
-      {
-        $oid: "665775d03ce388d9bf591c22",
-      },
-      {
-        $oid: "66577ef43ce388d9bf592020",
-      },
+      
+     new mongoose.Types.ObjectId(  "665775b03ce388d9bf591c0d"),
+      
+      
+      new mongoose.Types.ObjectId(   "665775be3ce388d9bf591c18"),
+      
+      
+      new mongoose.Types.ObjectId(   "665775d03ce388d9bf591c22"),
+      
+      
+      new mongoose.Types.ObjectId(   "66577ef43ce388d9bf592020"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+    
     geometry: {
       type: "Point",
       coordinates: [120.782905, 23.831716],
@@ -456,9 +451,9 @@ const sampleListings = [
     __v: 5,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f66174",
-    },
+    _id: 
+    new mongoose.Types.ObjectId(   "66567c2f75f84fe592f66174"),
+    
     title: "Charming Cottage in the Cotswolds",
     description:
       "Escape to the picturesque Cotswolds in this quaint and charming cottage with a thatched roof.",
@@ -470,22 +465,22 @@ const sampleListings = [
     location: "Cotswolds",
     country: "United Kingdom",
     reviews: [
-      {
-        $oid: "665775f83ce388d9bf591c31",
-      },
-      {
-        $oid: "665776093ce388d9bf591c43",
-      },
-      {
-        $oid: "66577f013ce388d9bf59202f",
-      },
-      {
-        $oid: "665780b43ce388d9bf592172",
-      },
+      
+       new mongoose.Types.ObjectId(  "665775f83ce388d9bf591c31"),
+      
+      
+      new mongoose.Types.ObjectId(   "665776093ce388d9bf591c43"),
+      
+      
+      new mongoose.Types.ObjectId(   "66577f013ce388d9bf59202f"),
+      
+      
+      new mongoose.Types.ObjectId(   "665780b43ce388d9bf592172"),
+    
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner:
+      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+    
     geometry: {
       type: "Point",
       coordinates: [-0.22985, 51.74913],
@@ -494,9 +489,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f66175",
-    },
+    _id: 
+      new mongoose.Types.ObjectId( "66567c2f75f84fe592f66175"),
+    
     title: "Historic Brownstone in Boston",
     description:
       "Step back in time in this elegant historic brownstone located in the heart of Boston.",
@@ -508,22 +503,22 @@ const sampleListings = [
     location: "Boston",
     country: "United States",
     reviews: [
-      {
-        $oid: "665776273ce388d9bf591c5c",
-      },
-      {
-        $oid: "6657763a3ce388d9bf591c6e",
-      },
-      {
-        $oid: "665776483ce388d9bf591c7f",
-      },
-      {
-        $oid: "66577f163ce388d9bf59203e",
-      },
+      
+        new mongoose.Types.ObjectId( "665776273ce388d9bf591c5c"),
+      
+      
+        new mongoose.Types.ObjectId( "6657763a3ce388d9bf591c6e"),
+      
+      
+        new mongoose.Types.ObjectId( "665776483ce388d9bf591c7f"),
+      
+      
+      //new mongoose.Types.ObjectId( "6577f163ce388d9bf59203e"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+    
     geometry: {
       type: "Point",
       coordinates: [-71.0568, 42.35888],
@@ -532,9 +527,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f66176",
-    },
+    
+    _id: new mongoose.Types.ObjectId("66567c2f75f84fe592f66176"),
+    
     title: "Beachfront Bungalow in Bali",
     description:
       "Relax on the sandy shores of Bali in this beautiful beachfront bungalow with a private pool.",
@@ -546,22 +541,22 @@ const sampleListings = [
     location: "Bali",
     country: "Indonesia",
     reviews: [
-      {
-        $oid: "665776593ce388d9bf591c8e",
-      },
-      {
-        $oid: "665776693ce388d9bf591ca0",
-      },
-      {
-        $oid: "6657767b3ce388d9bf591cb1",
-      },
-      {
-        $oid: "66577f2c3ce388d9bf592052",
-      },
+      
+        new mongoose.Types.ObjectId( "665776593ce388d9bf591c8e"),
+      
+      
+        new mongoose.Types.ObjectId( "665776693ce388d9bf591ca0"),
+      
+      
+        new mongoose.Types.ObjectId("6657767b3ce388d9bf591cb1"),
+      
+      
+        new mongoose.Types.ObjectId( "66577f2c3ce388d9bf592052"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+  
     geometry: {
       type: "Point",
       coordinates: [115.2191175, -8.6524973],
@@ -570,9 +565,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f66177",
-    },
+    _id: 
+      new mongoose.Types.ObjectId( "66567c2f75f84fe592f66177"),
+    
     title: "Mountain View Cabin in Banff",
     description:
       "Enjoy breathtaking mountain views from this cozy cabin in the Canadian Rockies.",
@@ -584,22 +579,22 @@ const sampleListings = [
     location: "Banff",
     country: "Canada",
     reviews: [
-      {
-        $oid: "6657768a3ce388d9bf591cc0",
-      },
-      {
-        $oid: "665776a93ce388d9bf591cd2",
-      },
-      {
-        $oid: "665776bd3ce388d9bf591ce3",
-      },
-      {
-        $oid: "66577f403ce388d9bf592061",
-      },
+      
+        new mongoose.Types.ObjectId( "6657768a3ce388d9bf591cc0"),
+      
+      
+         new mongoose.Types.ObjectId("665776a93ce388d9bf591cd2"),
+    
+      
+      new mongoose.Types.ObjectId( "665776bd3ce388d9bf591ce3"),
+      
+      
+      new mongoose.Types.ObjectId(   "66577f403ce388d9bf592061"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+    
     geometry: {
       type: "Point",
       coordinates: [-115.57096, 51.176613],
@@ -608,9 +603,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f66178",
-    },
+    _id: 
+      new mongoose.Types.ObjectId( "66567c2f75f84fe592f66178"),
+    
     title: "Art Deco Apartment in Miami",
     description:
       "Step into the glamour of the 1920s in this stylish Art Deco apartment in South Beach.",
@@ -622,22 +617,22 @@ const sampleListings = [
     location: "Miami",
     country: "United States",
     reviews: [
-      {
-        $oid: "665776ce3ce388d9bf591cf2",
-      },
-      {
-        $oid: "665776e03ce388d9bf591d04",
-      },
-      {
-        $oid: "665776f43ce388d9bf591d15",
-      },
-      {
-        $oid: "66577f513ce388d9bf592070",
-      },
+      
+      new mongoose.Types.ObjectId(   "665776ce3ce388d9bf591cf2"),
+      
+    
+     new mongoose.Types.ObjectId(  "665776e03ce388d9bf591d04"),
+      
+      
+         new mongoose.Types.ObjectId("665776f43ce388d9bf591d15"),
+      
+      
+         new mongoose.Types.ObjectId("66577f513ce388d9bf592070"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+    
     geometry: {
       coordinates: [-80.18537321875, 25.76513515625],
       type: "Point",
@@ -646,9 +641,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f66179",
-    },
+    _id: 
+      new mongoose.Types.ObjectId( "66567c2f75f84fe592f66179"),
+    
     title: "Tropical Villa in Phuket",
     description:
       "Escape to a tropical paradise in this luxurious villa with a private infinity pool in Phuket.",
@@ -660,22 +655,22 @@ const sampleListings = [
     location: "Phuket",
     country: "Thailand",
     reviews: [
-      {
-        $oid: "665777103ce388d9bf591d33",
-      },
-      {
-        $oid: "6657771b3ce388d9bf591d3e",
-      },
-      {
-        $oid: "6657772a3ce388d9bf591d48",
-      },
-      {
-        $oid: "66577f5c3ce388d9bf59207f",
-      },
+      
+       new mongoose.Types.ObjectId(  "665777103ce388d9bf591d33"),
+      
+      
+      new mongoose.Types.ObjectId(   "6657771b3ce388d9bf591d3e"),
+      
+      
+       new mongoose.Types.ObjectId(  "6657772a3ce388d9bf591d48"),
+      
+      
+       new mongoose.Types.ObjectId(  "66577f5c3ce388d9bf59207f"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+     new mongoose.Types.ObjectId(  "66567b03fda820235197b582"),
+    
     geometry: {
       type: "Point",
       coordinates: [98.390863, 7.882835],
@@ -684,9 +679,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f6617a",
-    },
+    _id: 
+      new mongoose.Types.ObjectId( "66567c2f75f84fe592f6617a"),
+    
     title: "Historic Castle in Scotland",
     description:
       "Live like royalty in this historic castle in the Scottish Highlands. Explore the rugged beauty of the area.",
@@ -698,22 +693,22 @@ const sampleListings = [
     location: "Scottish Highlands",
     country: "United Kingdom",
     reviews: [
-      {
-        $oid: "665777593ce388d9bf591d60",
-      },
-      {
-        $oid: "665777643ce388d9bf591d6b",
-      },
-      {
-        $oid: "665777653ce388d9bf591d75",
-      },
-      {
-        $oid: "66577f673ce388d9bf59208e",
-      },
+      
+       new mongoose.Types.ObjectId(  "665777593ce388d9bf591d60"),
+      
+      
+       new mongoose.Types.ObjectId(  "665777643ce388d9bf591d6b"),
+      
+      
+       new mongoose.Types.ObjectId(  "665777653ce388d9bf591d75"),
+      
+      
+       new mongoose.Types.ObjectId(  "66577f673ce388d9bf59208e"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+    
     geometry: {
       coordinates: [-4.228937, 57.477415],
       type: "Point",
@@ -722,9 +717,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f6617b",
-    },
+    _id: 
+     new mongoose.Types.ObjectId(  "66567c2f75f84fe592f6617b"),
+    
     title: "Desert Oasis in Dubai",
     description:
       "Experience luxury in the middle of the desert in this opulent oasis in Dubai with a private pool.",
@@ -736,22 +731,22 @@ const sampleListings = [
     location: "Dubai",
     country: "United Arab Emirates",
     reviews: [
-      {
-        $oid: "665777933ce388d9bf591d8a",
-      },
-      {
-        $oid: "6657779b3ce388d9bf591d95",
-      },
-      {
-        $oid: "665777a83ce388d9bf591d9f",
-      },
-      {
-        $oid: "66577f733ce388d9bf59209d",
-      },
+      
+        new mongoose.Types.ObjectId( "665777933ce388d9bf591d8a"),
+      
+      
+       new mongoose.Types.ObjectId(  "6657779b3ce388d9bf591d95"),
+      
+      
+        new mongoose.Types.ObjectId( "665777a83ce388d9bf591d9f"),
+      
+      
+       new mongoose.Types.ObjectId(  "66577f733ce388d9bf59209d"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+       new mongoose.Types.ObjectId("66567b03fda820235197b582"),
+    
     geometry: {
       type: "Point",
       coordinates: [55.293941, 25.265941],
@@ -760,9 +755,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f6617c",
-    },
+    _id: 
+      new mongoose.Types.ObjectId( "66567c2f75f84fe592f6617c"),
+    
     title: "Rustic Log Cabin in Montana",
     description:
       "Unplug and unwind in this cozy log cabin surrounded by the natural beauty of Montana.",
@@ -774,22 +769,22 @@ const sampleListings = [
     location: "Montana",
     country: "United States",
     reviews: [
-      {
-        $oid: "665777c33ce388d9bf591db4",
-      },
-      {
-        $oid: "665777d13ce388d9bf591dbf",
-      },
-      {
-        $oid: "665777e63ce388d9bf591dc9",
-      },
-      {
-        $oid: "66577f833ce388d9bf5920ac",
-      },
+      
+       new mongoose.Types.ObjectId(  "665777c33ce388d9bf591db4"),
+      
+      
+       new mongoose.Types.ObjectId(  "665777d13ce388d9bf591dbf"),
+      
+      
+      new mongoose.Types.ObjectId(   "665777e63ce388d9bf591dc9"),
+      
+      
+     new mongoose.Types.ObjectId(  "66577f833ce388d9bf5920ac"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+    
     geometry: {
       type: "Point",
       coordinates: [-109.172599073804, 47.0725146587006],
@@ -798,9 +793,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f6617d",
-    },
+    _id: 
+     new mongoose.Types.ObjectId(  "66567c2f75f84fe592f6617d"),
+    
     title: "Beachfront Villa in Greece",
     description:
       "Enjoy the crystal-clear waters of the Mediterranean in this beautiful beachfront villa on a Greek island.",
@@ -812,22 +807,22 @@ const sampleListings = [
     location: "Mykonos",
     country: "Greece",
     reviews: [
-      {
-        $oid: "665778013ce388d9bf591dde",
-      },
-      {
-        $oid: "6657780f3ce388d9bf591de9",
-      },
-      {
-        $oid: "665778213ce388d9bf591df3",
-      },
-      {
-        $oid: "66577f903ce388d9bf5920bb",
-      },
+      
+       new mongoose.Types.ObjectId(  "665778013ce388d9bf591dde"),
+      
+      
+       new mongoose.Types.ObjectId(  "6657780f3ce388d9bf591de9"),
+      
+      
+      new mongoose.Types.ObjectId( "665778213ce388d9bf591df3"),
+      
+      
+      new mongoose.Types.ObjectId(   "66577f903ce388d9bf5920bb"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+    
     geometry: {
       type: "Point",
       coordinates: [25.328008, 37.446178],
@@ -836,9 +831,9 @@ const sampleListings = [
     __v: 5,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f6617e",
-    },
+    _id: 
+     new mongoose.Types.ObjectId(  "66567c2f75f84fe592f6617e"),
+    
     title: "Eco-Friendly Treehouse Retreat",
     description:
       "Stay in an eco-friendly treehouse nestled in the forest. It's the perfect escape for nature lovers.",
@@ -850,22 +845,22 @@ const sampleListings = [
     location: "Costa Rica",
     country: "Costa Rica",
     reviews: [
-      {
-        $oid: "665778423ce388d9bf591e0b",
-      },
-      {
-        $oid: "6657784f3ce388d9bf591e16",
-      },
-      {
-        $oid: "665778603ce388d9bf591e20",
-      },
-      {
-        $oid: "66577fc03ce388d9bf5920dd",
-      },
+      
+       new mongoose.Types.ObjectId(  "665778423ce388d9bf591e0b"),
+      
+      
+       new mongoose.Types.ObjectId(  "6657784f3ce388d9bf591e16"),
+      
+      
+       new mongoose.Types.ObjectId("665778603ce388d9bf591e20"),
+      
+      
+       new mongoose.Types.ObjectId(  "66577fc03ce388d9bf5920dd"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+    
     geometry: {
       coordinates: [-84.092347, 9.932191],
       type: "Point",
@@ -874,9 +869,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f6617f",
-    },
+    _id: 
+      new mongoose.Types.ObjectId( "66567c2f75f84fe592f6617f"),
+    
     title: "Historic Cottage in Charleston",
     description:
       "Experience the charm of historic Charleston in this beautifully restored cottage with a private garden.",
@@ -888,22 +883,22 @@ const sampleListings = [
     location: "Charleston",
     country: "United States",
     reviews: [
-      {
-        $oid: "6657788a3ce388d9bf591e35",
-      },
-      {
-        $oid: "665778a23ce388d9bf591e40",
-      },
-      {
-        $oid: "665778ae3ce388d9bf591e4a",
-      },
-      {
-        $oid: "66577fcc3ce388d9bf5920ec",
-      },
+      
+    new mongoose.Types.ObjectId( "6657788a3ce388d9bf591e35"),
+      
+      
+new mongoose.Types.ObjectId("665778a23ce388d9bf591e40"),
+      
+      
+       new mongoose.Types.ObjectId(  "665778ae3ce388d9bf591e4a"),
+      
+      
+       new mongoose.Types.ObjectId(  "66577fcc3ce388d9bf5920ec"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+     new mongoose.Types.ObjectId(  "66567b03fda820235197b582"),
+    
     geometry: {
       type: "Point",
       coordinates: [-79.93863, 32.789284],
@@ -912,9 +907,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f66180",
-    },
+    _id: 
+     new mongoose.Types.ObjectId(  "66567c2f75f84fe592f66180"),
+    
     title: "Modern Apartment in Tokyo",
     description:
       "Explore the vibrant city of Tokyo from this modern and centrally located apartment.",
@@ -926,22 +921,22 @@ const sampleListings = [
     location: "Tokyo",
     country: "Japan",
     reviews: [
-      {
-        $oid: "665778cf3ce388d9bf591e62",
-      },
-      {
-        $oid: "665778da3ce388d9bf591e6d",
-      },
-      {
-        $oid: "665778e43ce388d9bf591e77",
-      },
-      {
-        $oid: "66577fd93ce388d9bf5920fb",
-      },
+      
+      new mongoose.Types.ObjectId(   "665778cf3ce388d9bf591e62"),
+      
+      
+     new mongoose.Types.ObjectId(  "665778da3ce388d9bf591e6d"),
+      
+      
+     new mongoose.Types.ObjectId(   "665778e43ce388d9bf591e77"),
+      
+      
+     new mongoose.Types.ObjectId(    "66577fd93ce388d9bf5920fb"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+    
     geometry: {
       type: "Point",
       coordinates: [139.1485991, 35.76478424],
@@ -950,9 +945,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f66181",
-    },
+    _id: 
+     new mongoose.Types.ObjectId(  "66567c2f75f84fe592f66181"),
+    
     title: "Lakefront Cabin in New Hampshire",
     description:
       "Spend your days by the lake in this cozy cabin in the scenic White Mountains of New Hampshire.",
@@ -964,22 +959,22 @@ const sampleListings = [
     location: "New Hampshire",
     country: "United States",
     reviews: [
-      {
-        $oid: "6657790d3ce388d9bf591e8c",
-      },
-      {
-        $oid: "665779183ce388d9bf591e97",
-      },
-      {
-        $oid: "665779193ce388d9bf591ea1",
-      },
-      {
-        $oid: "66577fe43ce388d9bf59210a",
-      },
+      
+      new mongoose.Types.ObjectId(   "6657790d3ce388d9bf591e8c"),
+      
+      
+       new mongoose.Types.ObjectId(  "665779183ce388d9bf591e97"),
+      
+      
+       new mongoose.Types.ObjectId(  "665779193ce388d9bf591ea1"),
+      
+      
+       new mongoose.Types.ObjectId(  "66577fe43ce388d9bf59210a"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+     new mongoose.Types.ObjectId("66567b03fda820235197b582"),
+    
     geometry: {
       type: "Point",
       coordinates: [-71.5783054333969, 43.6898878153712],
@@ -988,9 +983,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f66182",
-    },
+    _id: 
+    new mongoose.Types.ObjectId( "66567c2f75f84fe592f66182"),
+    
     title: "Luxury Villa in the Maldives",
     description:
       "Indulge in luxury in this overwater villa in the Maldives with stunning views of the Indian Ocean.",
@@ -1002,22 +997,22 @@ const sampleListings = [
     location: "Maldives",
     country: "Maldives",
     reviews: [
-      {
-        $oid: "665779523ce388d9bf591eb6",
-      },
-      {
-        $oid: "665779533ce388d9bf591ec1",
-      },
-      {
-        $oid: "665779543ce388d9bf591ecb",
-      },
-      {
-        $oid: "66577ff13ce388d9bf592119",
-      },
+      
+       new mongoose.Types.ObjectId(  "665779523ce388d9bf591eb6"),
+      
+      
+       new mongoose.Types.ObjectId(  "665779533ce388d9bf591ec1"),
+      
+      
+       new mongoose.Types.ObjectId("665779543ce388d9bf591ecb"),
+      
+      
+       new mongoose.Types.ObjectId(  "66577ff13ce388d9bf592119"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+    
     geometry: {
       coordinates: [100.58672, 13.772545],
       type: "Point",
@@ -1026,9 +1021,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f66183",
-    },
+    _id: 
+      new mongoose.Types.ObjectId( "66567c2f75f84fe592f66183"),
+    
     title: "Ski Chalet in Aspen",
     description:
       "Hit the slopes in style with this luxurious ski chalet in the world-famous Aspen ski resort.",
@@ -1040,22 +1035,22 @@ const sampleListings = [
     location: "Aspen",
     country: "United States",
     reviews: [
-      {
-        $oid: "6657796f3ce388d9bf591ee0",
-      },
-      {
-        $oid: "6657797c3ce388d9bf591eeb",
-      },
-      {
-        $oid: "6657798d3ce388d9bf591ef5",
-      },
-      {
-        $oid: "66577ffb3ce388d9bf592128",
-      },
+      
+        new mongoose.Types.ObjectId( "6657796f3ce388d9bf591ee0"),
+      
+      
+       new mongoose.Types.ObjectId(  "6657797c3ce388d9bf591eeb"),
+      
+      
+       new mongoose.Types.ObjectId(  "6657798d3ce388d9bf591ef5"),
+      
+      
+       new mongoose.Types.ObjectId("66577ffb3ce388d9bf592128"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+       new mongoose.Types.ObjectId("66567b03fda820235197b582"),
+    
     geometry: {
       type: "Point",
       coordinates: [-106.819885, 39.18869],
@@ -1064,9 +1059,9 @@ const sampleListings = [
     __v: 4,
   },
   {
-    _id: {
-      $oid: "66567c2f75f84fe592f66184",
-    },
+    _id: 
+      new mongoose.Types.ObjectId( "66567c2f75f84fe592f66184"),
+    
     title: "Secluded Beach House in Costa Rica",
     description:
       "Escape to a secluded beach house on the Pacific coast of Costa Rica. Surf, relax, and unwind.",
@@ -1078,22 +1073,22 @@ const sampleListings = [
     location: "Costa Rica",
     country: "Costa Rica",
     reviews: [
-      {
-        $oid: "665779ca3ce388d9bf591f0e",
-      },
-      {
-        $oid: "665779d73ce388d9bf591f19",
-      },
-      {
-        $oid: "665779e73ce388d9bf591f23",
-      },
-      {
-        $oid: "665780073ce388d9bf592137",
-      },
+      
+       new mongoose.Types.ObjectId(  "665779ca3ce388d9bf591f0e"),
+      
+      
+       new mongoose.Types.ObjectId(  "665779d73ce388d9bf591f19"),
+      
+      
+        new mongoose.Types.ObjectId( "665779e73ce388d9bf591f23"),
+      
+      
+        new mongoose.Types.ObjectId( "665780073ce388d9bf592137"),
+      
     ],
-    owner: {
-      $oid: "66567b03fda820235197b582",
-    },
+    owner: 
+      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+    
     geometry: {
       coordinates: [-84.092347, 9.932191],
       type: "Point",
