@@ -45,7 +45,7 @@ Geocoding: Mapbox API
 
 ✅ Admin dashboard
 
-
+Live Demo: https://wanderlust-byf5.onrender.com
 🧑‍💻 Author
 Utsav Mathuria
 🎓 NIT Warangal
