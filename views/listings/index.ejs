@@ -166,9 +166,21 @@
 <div id="listing-container" class="row row-cols-lg-4 row-cols-adjust"></div>
 
       <!--  </div>-->
-      <script>
-    const allListings =  JSON.stringify(allListings) ;
+<!-- <script>
+    const allListings = <%- JSON.stringify(allListings) %>;
+</script> -->
+<script id="listing-data" type="application/json">
+  <%- JSON.stringify(allListings).replace(/</g, '\\u003c') %>
 </script>
+
+<script>
+    const allListings = JSON.parse(document.getElementById("listing-data").textContent);
+</script>
+
+
+
+
+
 
 <script>
     const toggle = document.getElementById('flexSwitchCheckDefault');

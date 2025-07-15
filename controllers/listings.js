@@ -28,6 +28,8 @@ module.exports.showListing = async (req, res) => {
 };
 
 module.exports.createListing = async (req, res, next) => {
+  console.log("🧠 req.user:", req.user);
+
   let response = await geoCodingClient
     .forwardGeocode({
       query: req.body.listing.location,
