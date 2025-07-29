@@ -16,20 +16,11 @@ const sampleListings = [
     country: "United States",
     reviews: [
       
-        new mongoose.Types.ObjectId( "665765653ce388d9bf5919c2"),
-      
-      
-        new mongoose.Types.ObjectId( "665765843ce388d9bf5919d2"),
-  
-      
-         new mongoose.Types.ObjectId("665765a23ce388d9bf5919e6"),
-      
-      
-       new mongoose.Types.ObjectId( "66577e4b3ce388d9bf591f6a"),
+       
       
     ],
     owner: 
-       new mongoose.Types.ObjectId("66567b03fda820235197b582"),
+       new mongoose.Types.ObjectId("6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       type: "Point",
@@ -54,17 +45,11 @@ const sampleListings = [
     country: "United States",
     reviews: [
       
-         new mongoose.Types.ObjectId("665766303ce388d9bf5919f7"),
-      
-     new mongoose.Types.ObjectId("665766473ce388d9bf591a07"),
-      
-        new mongoose.Types.ObjectId( "665766623ce388d9bf591a18"),
-      
-        new mongoose.Types.ObjectId( "66577e5a3ce388d9bf591f7b"),
+        
       
     ],
     owner: 
-      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+      new mongoose.Types.ObjectId( "6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       type: "Point",
@@ -89,20 +74,10 @@ const sampleListings = [
     country: "United States",
     reviews: [
       
-        new mongoose.Types.ObjectId( "665766783ce388d9bf591a27"),
-      
-      
-       new mongoose.Types.ObjectId(  "6657668e3ce388d9bf591a39"),
-      
-      
-       new mongoose.Types.ObjectId(  "665766bd3ce388d9bf591a5d"),
-      
-    
-       new mongoose.Types.ObjectId(  "66577e633ce388d9bf591f8c"),
-      
+       
     ],
     owner: 
-     new mongoose.Types.ObjectId(  "66567b03fda820235197b582"),
+     new mongoose.Types.ObjectId(  "6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       type: "Point",
@@ -138,7 +113,7 @@ const sampleListings = [
       
     ],
     owner: 
-     new mongoose.Types.ObjectId(  "66567b03fda820235197b582"),
+     new mongoose.Types.ObjectId(  "6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       type: "Point",
@@ -175,7 +150,7 @@ const sampleListings = [
       
     ],
     owner: 
-      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+      new mongoose.Types.ObjectId("6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       type: "Point",
@@ -213,7 +188,7 @@ const sampleListings = [
       
     ],
     owner: 
-      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+      new mongoose.Types.ObjectId( "6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       type: "Point",
@@ -251,7 +226,7 @@ const sampleListings = [
       
     ],
     owner: 
-    new mongoose.Types.ObjectId(   "66567b03fda820235197b582"),
+    new mongoose.Types.ObjectId(   "6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       coordinates: [-120.12787, 39.267319],
@@ -289,7 +264,7 @@ const sampleListings = [
       
     ],
     owner: 
-    new mongoose.Types.ObjectId(   "66567b03fda820235197b582"),
+    new mongoose.Types.ObjectId(   "6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       type: "Point",
@@ -327,7 +302,7 @@ const sampleListings = [
       
     ],
     owner: 
-     new mongoose.Types.ObjectId(  "66567b03fda820235197b582"),
+     new mongoose.Types.ObjectId(  "6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       type: "Point",
@@ -365,7 +340,7 @@ const sampleListings = [
       
     ],
     owner: 
-      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+      new mongoose.Types.ObjectId( "6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       coordinates: [30.536625, 38.820522],
@@ -403,7 +378,7 @@ const sampleListings = [
       
     ],
     owner: 
-      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+      new mongoose.Types.ObjectId( "6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       type: "Point",
@@ -441,7 +416,7 @@ const sampleListings = [
       
     ],
     owner: 
-      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+      new mongoose.Types.ObjectId( "6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       type: "Point",
@@ -517,7 +492,7 @@ const sampleListings = [
       
     ],
     owner: 
-      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+      new mongoose.Types.ObjectId( "6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       type: "Point",
@@ -555,7 +530,7 @@ const sampleListings = [
       
     ],
     owner: 
-      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+      new mongoose.Types.ObjectId( "6870eca71aa6183acfe0e1bc"),
   
     geometry: {
       type: "Point",
@@ -593,7 +568,7 @@ const sampleListings = [
       
     ],
     owner: 
-      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+      new mongoose.Types.ObjectId( "6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       type: "Point",
@@ -631,7 +606,7 @@ const sampleListings = [
       
     ],
     owner: 
-      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+      new mongoose.Types.ObjectId( "6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       coordinates: [-80.18537321875, 25.76513515625],
@@ -669,7 +644,7 @@ const sampleListings = [
       
     ],
     owner: 
-     new mongoose.Types.ObjectId(  "66567b03fda820235197b582"),
+     new mongoose.Types.ObjectId(  "6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       type: "Point",
@@ -707,7 +682,7 @@ const sampleListings = [
       
     ],
     owner: 
-      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+      new mongoose.Types.ObjectId( "6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       coordinates: [-4.228937, 57.477415],
@@ -745,7 +720,7 @@ const sampleListings = [
       
     ],
     owner: 
-       new mongoose.Types.ObjectId("66567b03fda820235197b582"),
+       new mongoose.Types.ObjectId("6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       type: "Point",
@@ -783,7 +758,7 @@ const sampleListings = [
       
     ],
     owner: 
-      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+      new mongoose.Types.ObjectId( "6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       type: "Point",
@@ -821,7 +796,7 @@ const sampleListings = [
       
     ],
     owner: 
-      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+      new mongoose.Types.ObjectId( "6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       type: "Point",
@@ -859,7 +834,7 @@ const sampleListings = [
       
     ],
     owner: 
-      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+      new mongoose.Types.ObjectId( "6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       coordinates: [-84.092347, 9.932191],
@@ -897,7 +872,7 @@ new mongoose.Types.ObjectId("665778a23ce388d9bf591e40"),
       
     ],
     owner: 
-     new mongoose.Types.ObjectId(  "66567b03fda820235197b582"),
+     new mongoose.Types.ObjectId(  "6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       type: "Point",
@@ -935,7 +910,7 @@ new mongoose.Types.ObjectId("665778a23ce388d9bf591e40"),
       
     ],
     owner: 
-      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+      new mongoose.Types.ObjectId( "6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       type: "Point",
@@ -973,7 +948,7 @@ new mongoose.Types.ObjectId("665778a23ce388d9bf591e40"),
       
     ],
     owner: 
-     new mongoose.Types.ObjectId("66567b03fda820235197b582"),
+     new mongoose.Types.ObjectId("6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       type: "Point",
@@ -1011,7 +986,7 @@ new mongoose.Types.ObjectId("665778a23ce388d9bf591e40"),
       
     ],
     owner: 
-      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+      new mongoose.Types.ObjectId( "6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       coordinates: [100.58672, 13.772545],
@@ -1049,7 +1024,7 @@ new mongoose.Types.ObjectId("665778a23ce388d9bf591e40"),
       
     ],
     owner: 
-       new mongoose.Types.ObjectId("66567b03fda820235197b582"),
+       new mongoose.Types.ObjectId("6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       type: "Point",
@@ -1087,7 +1062,7 @@ new mongoose.Types.ObjectId("665778a23ce388d9bf591e40"),
       
     ],
     owner: 
-      new mongoose.Types.ObjectId( "66567b03fda820235197b582"),
+      new mongoose.Types.ObjectId( "6870eca71aa6183acfe0e1bc"),
     
     geometry: {
       coordinates: [-84.092347, 9.932191],

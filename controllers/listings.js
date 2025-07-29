@@ -18,13 +18,21 @@ module.exports.showListing = async (req, res) => {
   let listing = await Listing.findById(id)
     .populate({ path: "reviews", populate: { path: "author" } })
     .populate("owner");
+    console.log("Listing ID:", id);
+console.log("Listing found:", listing);
+console.log("Owner raw:", listing?.owner);
+
   if (!listing) {
     req.flash("error", "Listing you requested for does not exist!");
     res.redirect("/listings");
   }
   console.log("listing = ", listing);
 
-  res.render("listings/show.ejs", { listing });
+  res.render("listings/show.ejs", {
+  listing,
+  mapToken: process.env.MAP_TOKEN, 
+});
+
 };
 
 module.exports.createListing = async (req, res, next) => {

@@ -39,14 +39,14 @@ const initDB = async () => {
             `Geocoding failed for ${obj.location}, ${obj.country}:`,
             error
           );
-          return { ...obj, owner: "66567b03fda820235197b582", geometry: null };
+          return { ...obj,  geometry: null };
         }
 
         const geometry = response.body.features[0].geometry || null;
 
         return {
           ...obj,
-          owner: "66567b03fda820235197b582",
+          
           geometry,
         };
       })
